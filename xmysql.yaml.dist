@@ -1,0 +1,12 @@
+backupPath: /var/xmysql/backup
+servers:
+  # define an array of one or more servers here
+  local:
+    host: localhost
+    username: root
+    password: somepassword
+    exclude:
+      - wp_* # exclude all wordpress databases
+      - example # exclude the example database too
+      # - etc...
+

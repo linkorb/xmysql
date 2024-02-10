@@ -1,0 +1,26 @@
+{
+    "name": "linkorb/xmysql",
+    "description": "Cross MySQL Server tools",
+    "homepage": "https://github.com/linkorb/xmysql",
+    "keywords": ["mysql", "tools", "backups"],
+    "type": "application",
+    "authors": [
+        {
+            "name": "LinkORB",
+            "email": "engineering@linkorb.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.0",
+        "symfony/process": "^5.0",
+        "symfony/dotenv": "^5.0",
+        "symfony/yaml": "^5.0"  
+    },
+    "autoload": {
+        "psr-4": {
+            "XMySQL\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
